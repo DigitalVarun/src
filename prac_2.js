@@ -1,14 +1,33 @@
-let a = 3;
-console.log("when a++ applied = " + a++);
-console.log("after a++ the value of a is = " + a);
+let a = 1;
+if (a<20 && a>10){
+    console.log("You lies b/w 10 & 20.");
+}
+else {
+    console.log("You r not lies b/w 10 & 20")
+}
 
-console.log("a-- is " + a--);
-console.log("when a-- the valua of a is " + a);
+switch (a){
+    case 1 : {
+    console.log("You are 1");
+    }
+    break;
+}
 
-console.log("when ++a is " + ++a);
-console.log("after ++a the value of a is  " + ++a);
+let  c = 2;
 
-console.log("--a is " + --a);
-console.log("when --a is applied the vlue of a is " + a);
+if ((c%2) == 0 && (c%3) == 0) {
+    console.log("This c is divided by 2 and 3.")
+}
+else if((c%2) == 0 && (c%3) != 0){
+    console.log("This number is divided by 2 but not divided by 3")
+}
+else if((c%3) == 0 && (c%2) != 0){
+    console.log("This number is divided by 3 cut not divided by 2")
+}
+else {
+    console.log("This number is not divided by 2 & 3.")
+}
 
-console.log("** is " + a**a);
+let age = 10;
+
+console.log("You can" + ((age < 18)? " not " :" ") + "drive.");
